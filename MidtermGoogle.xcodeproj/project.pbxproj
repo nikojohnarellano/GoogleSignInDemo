@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D33D998CDE3B20F49052DA6 /* Pods_MidtermGoogle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DFF6EAB005C04BC4D7B355C /* Pods_MidtermGoogle.framework */; };
+		31B3DE050F59BF8760BCA4C7 /* Pods_MidtermGoogleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDF8EA931DEEA14F6833000E /* Pods_MidtermGoogleTests.framework */; };
 		609B706A1FA3CB68007EC36F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609B70691FA3CB68007EC36F /* AppDelegate.swift */; };
 		609B706C1FA3CB68007EC36F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609B706B1FA3CB68007EC36F /* ViewController.swift */; };
 		609B706F1FA3CB68007EC36F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 609B706D1FA3CB68007EC36F /* Main.storyboard */; };
@@ -14,6 +16,7 @@
 		609B70741FA3CB68007EC36F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 609B70731FA3CB68007EC36F /* Assets.xcassets */; };
 		609B70771FA3CB68007EC36F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 609B70751FA3CB68007EC36F /* LaunchScreen.storyboard */; };
 		609B70821FA3CB68007EC36F /* MidtermGoogleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 609B70811FA3CB68007EC36F /* MidtermGoogleTests.swift */; };
+		609B708D1FA3CC66007EC36F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 609B708C1FA3CC66007EC36F /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29090106245AFF0AE54DACC5 /* Pods-MidtermGoogle.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MidtermGoogle.release.xcconfig"; path = "Pods/Target Support Files/Pods-MidtermGoogle/Pods-MidtermGoogle.release.xcconfig"; sourceTree = "<group>"; };
+		3A15822301663EB39B200446 /* Pods-MidtermGoogleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MidtermGoogleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MidtermGoogleTests/Pods-MidtermGoogleTests.release.xcconfig"; sourceTree = "<group>"; };
+		3DFF6EAB005C04BC4D7B355C /* Pods_MidtermGoogle.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MidtermGoogle.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A28E79A600E953819A56715 /* Pods-MidtermGoogle.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MidtermGoogle.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MidtermGoogle/Pods-MidtermGoogle.debug.xcconfig"; sourceTree = "<group>"; };
 		609B70661FA3CB68007EC36F /* MidtermGoogle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MidtermGoogle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		609B70691FA3CB68007EC36F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		609B706B1FA3CB68007EC36F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +45,9 @@
 		609B707D1FA3CB68007EC36F /* MidtermGoogleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MidtermGoogleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		609B70811FA3CB68007EC36F /* MidtermGoogleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MidtermGoogleTests.swift; sourceTree = "<group>"; };
 		609B70831FA3CB68007EC36F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		609B708C1FA3CC66007EC36F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B549E6A7A675AB1275DCB377 /* Pods-MidtermGoogleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MidtermGoogleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MidtermGoogleTests/Pods-MidtermGoogleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DDF8EA931DEEA14F6833000E /* Pods_MidtermGoogleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MidtermGoogleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D33D998CDE3B20F49052DA6 /* Pods_MidtermGoogle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31B3DE050F59BF8760BCA4C7 /* Pods_MidtermGoogleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +76,8 @@
 				609B70681FA3CB68007EC36F /* MidtermGoogle */,
 				609B70801FA3CB68007EC36F /* MidtermGoogleTests */,
 				609B70671FA3CB68007EC36F /* Products */,
+				6B750CBC9E7C632ED4CB2CFC /* Pods */,
+				8CB2A7F374B55F0E2BB445D1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +93,7 @@
 		609B70681FA3CB68007EC36F /* MidtermGoogle */ = {
 			isa = PBXGroup;
 			children = (
+				609B708C1FA3CC66007EC36F /* GoogleService-Info.plist */,
 				609B70691FA3CB68007EC36F /* AppDelegate.swift */,
 				609B706B1FA3CB68007EC36F /* ViewController.swift */,
 				609B706D1FA3CB68007EC36F /* Main.storyboard */,
@@ -99,6 +114,26 @@
 			path = MidtermGoogleTests;
 			sourceTree = "<group>";
 		};
+		6B750CBC9E7C632ED4CB2CFC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5A28E79A600E953819A56715 /* Pods-MidtermGoogle.debug.xcconfig */,
+				29090106245AFF0AE54DACC5 /* Pods-MidtermGoogle.release.xcconfig */,
+				B549E6A7A675AB1275DCB377 /* Pods-MidtermGoogleTests.debug.xcconfig */,
+				3A15822301663EB39B200446 /* Pods-MidtermGoogleTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8CB2A7F374B55F0E2BB445D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DFF6EAB005C04BC4D7B355C /* Pods_MidtermGoogle.framework */,
+				DDF8EA931DEEA14F6833000E /* Pods_MidtermGoogleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +141,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 609B70861FA3CB68007EC36F /* Build configuration list for PBXNativeTarget "MidtermGoogle" */;
 			buildPhases = (
+				792CFBD78BAD2A164D39ED26 /* [CP] Check Pods Manifest.lock */,
 				609B70621FA3CB68007EC36F /* Sources */,
 				609B70631FA3CB68007EC36F /* Frameworks */,
 				609B70641FA3CB68007EC36F /* Resources */,
+				375B2DF6B0A48143C16B0640 /* [CP] Embed Pods Frameworks */,
+				6DCC7C8B8603E5A015D2B7A4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,9 +161,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 609B70891FA3CB68007EC36F /* Build configuration list for PBXNativeTarget "MidtermGoogleTests" */;
 			buildPhases = (
+				4160298D59205656F929570B /* [CP] Check Pods Manifest.lock */,
 				609B70791FA3CB68007EC36F /* Sources */,
 				609B707A1FA3CB68007EC36F /* Frameworks */,
 				609B707B1FA3CB68007EC36F /* Resources */,
+				8EAA9853A0D5B0FF866E2C1D /* [CP] Embed Pods Frameworks */,
+				80633A0BFB357E3D1D14B20C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -183,6 +224,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				609B70771FA3CB68007EC36F /* LaunchScreen.storyboard in Resources */,
+				609B708D1FA3CC66007EC36F /* GoogleService-Info.plist in Resources */,
 				609B70741FA3CB68007EC36F /* Assets.xcassets in Resources */,
 				609B706F1FA3CB68007EC36F /* Main.storyboard in Resources */,
 			);
@@ -196,6 +238,115 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		375B2DF6B0A48143C16B0640 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MidtermGoogle/Pods-MidtermGoogle-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MidtermGoogle/Pods-MidtermGoogle-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4160298D59205656F929570B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MidtermGoogleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6DCC7C8B8603E5A015D2B7A4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MidtermGoogle/Pods-MidtermGoogle-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MidtermGoogle/Pods-MidtermGoogle-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		792CFBD78BAD2A164D39ED26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MidtermGoogle-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80633A0BFB357E3D1D14B20C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MidtermGoogleTests/Pods-MidtermGoogleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EAA9853A0D5B0FF866E2C1D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MidtermGoogleTests/Pods-MidtermGoogleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		609B70621FA3CB68007EC36F /* Sources */ = {
@@ -355,6 +506,7 @@
 		};
 		609B70871FA3CB68007EC36F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A28E79A600E953819A56715 /* Pods-MidtermGoogle.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -370,6 +522,7 @@
 		};
 		609B70881FA3CB68007EC36F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29090106245AFF0AE54DACC5 /* Pods-MidtermGoogle.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -385,6 +538,7 @@
 		};
 		609B708A1FA3CB68007EC36F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B549E6A7A675AB1275DCB377 /* Pods-MidtermGoogleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -402,6 +556,7 @@
 		};
 		609B708B1FA3CB68007EC36F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A15822301663EB39B200446 /* Pods-MidtermGoogleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

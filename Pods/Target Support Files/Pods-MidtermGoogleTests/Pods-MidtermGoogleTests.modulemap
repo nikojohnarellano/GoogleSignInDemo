@@ -1,0 +1,6 @@
+framework module Pods_MidtermGoogleTests {
+  umbrella header "Pods-MidtermGoogleTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
